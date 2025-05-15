@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "tournament",
-    "slug": "tournament",
+    "slug": "ramim-tournament",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.omit9090.ramimtournament"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +38,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f62335d1-b420-43ea-a6a9-5fb47cc47a0e"
+      }
+    },
+    "owner": "omit9090"
   }
 }
